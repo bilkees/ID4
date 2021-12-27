@@ -28,7 +28,7 @@
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     @* uncomment this and comment below if block//<li>@Html.ActionLink("Role", "Index", "Role")</li>*@  
 
-                    @if (User.IsInRole("Admin"))
+                    @if (User.IsInRole("Manager"))
                     {
                         <li>@Html.ActionLink("Role", "Index", "Role")</li>
                     }
