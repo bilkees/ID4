@@ -12,7 +12,7 @@ namespace ID4.Controllers
     public class UsersController : Controller
     {
         [Authorize]
-        // GET: Users
+        // GET: Users comment added
         public ActionResult Index()
         {
             if (User.Identity.IsAuthenticated)

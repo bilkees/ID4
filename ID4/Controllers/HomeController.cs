@@ -12,7 +12,7 @@ namespace ID4.Controllers
         {
             return View();
         }
-        [Authorize(Roles ="Manager")]//admin user
+        [Authorize(Roles ="Manager")]//admin user/commented
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

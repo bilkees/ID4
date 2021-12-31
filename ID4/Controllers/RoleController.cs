@@ -37,7 +37,7 @@ namespace ID4.Controllers
             }
         }
 
-        // GET: Role
+        // GET: Role comment added inrolecontroller
         public ActionResult Index()
         {
             List<RoleViewModel> list = new List<RoleViewModel>();
